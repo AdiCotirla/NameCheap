@@ -34,10 +34,7 @@
     color: white;
     margin-left: 10%;
   }
-  /* .img-zakynthos
-  {
-    opacity: 0.5;
-  } */
+ 
   .title-menu
   {
     font-family: 'Calligraffitti', cursive;
@@ -53,20 +50,11 @@
  .name-title
  {
   font-family: 'Calligraffitti', cursive;
-   margin-left: 20px;
+   margin-right: 20px;
+   font-size: 150%;
+   font-weight: bolder;
  }
 
-  .navbar-logo {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    justify-self: start;
-    margin-left: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-  }
   
   .fa-firstdraft {
     margin-left: 0.5rem;
@@ -187,6 +175,10 @@
 
 
   @media screen and (max-width: 960px) {
+    .div-under-meniu-h1
+    {
+      margin-left: 5%;
+    }
     .title-menu-div
     {
       display: none;
@@ -202,6 +194,7 @@
       top: 100px;
       left: -100%;
       opacity: 1;
+      background-color: white;
       transition: all 0.5s ease;
       grid-gap: 0;
     }
@@ -249,7 +242,7 @@
     .menu-icon {
       display: flex;
       position: absolute;
-      justify-content: center;
+      justify-content: space-evenly;
       align-items: center;
       text-align: center;
       width: 100%;

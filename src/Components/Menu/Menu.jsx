@@ -2,7 +2,6 @@ import React, { useState} from 'react';
 import { Link } from 'react-router-dom';
 import "../../Styling/menu.css"
 import Dropdown from '../Submenu/Submenu';
-import zakynthos from "../../assets/zakynthos.jpg"
 
 
 
@@ -50,11 +49,11 @@ function Navbar(props) {
     <div id='navbar'>
       <nav className='navbar'>
         <div className='menu-icon'>
+            <p className='name-title'>Coupon Beast</p>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} onClick={()=>{
             handleClick()
             BlurRoot()
           }}/>
-          <p className='name-title'>Coupon Beast</p>
         </div>
         <div className='title-menu-div'>
             <p className='title-menu'>Coupon Beast</p>
