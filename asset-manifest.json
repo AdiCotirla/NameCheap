@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/NameCheap/static/css/main.b0e38107.css",
+    "main.js": "/NameCheap/static/js/main.a04e0e7e.js",
+    "static/js/787.42daceff.chunk.js": "/NameCheap/static/js/787.42daceff.chunk.js",
+    "static/media/zakynthos.jpg": "/NameCheap/static/media/zakynthos.839b910b9d95d6fa547f.jpg",
+    "index.html": "/NameCheap/index.html",
+    "main.b0e38107.css.map": "/NameCheap/static/css/main.b0e38107.css.map",
+    "main.a04e0e7e.js.map": "/NameCheap/static/js/main.a04e0e7e.js.map",
+    "787.42daceff.chunk.js.map": "/NameCheap/static/js/787.42daceff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0e38107.css",
+    "static/js/main.a04e0e7e.js"
+  ]
+}
