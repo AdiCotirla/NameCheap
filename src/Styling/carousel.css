@@ -1,0 +1,99 @@
+.main-slider
+{
+    height: 50vh;
+    width: 45%;
+    background-color: red;
+    margin: 0;
+}
+.container-carousel
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.link-category
+{
+    display: flex;
+    justify-content: start;
+    align-items: stretch;
+
+}
+.categories-div
+{
+    width: 45%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+.icon-category
+{
+    width: 50px;
+    height: 50px;
+}
+.thumbs
+{
+    display: none;
+}
+.carousel
+{
+    margin: 0;
+    height: 100%;
+    text-align: center;
+}
+.slider-wrapper
+{
+    height: 100%;
+}
+.animated
+{
+    height: 100%;
+}
+.slide
+{
+    height: 100%;
+}
+.image-container
+{
+    height: calc(100% - 50px);
+}
+.image-container > img
+{
+    display: none;
+}
+.control-dots
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.legend
+{
+    height: calc(100% - 50px);
+    width: 100%;
+    border-radius: none;
+    padding: 0px;
+    opacity: 1;
+    position: relative;
+    color: black;
+}
+.carousel .slide .legend 
+{
+    padding: 0px;
+    opacity: 1;
+    font-size: 1.5rem;
+    background-color: #4863ff00;
+}
+.more
+{
+    position: absolute;
+    right: 5%;
+    color: white;
+    bottom: 10%;
+}
+@media only screen and (max-width:960px) {
+.carousel .slide .legend 
+    {
+        font-size: 1rem;
+    }
+}
