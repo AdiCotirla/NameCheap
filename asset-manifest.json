@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/NameCheap/static/css/main.faf3cf40.css",
-    "main.js": "/NameCheap/static/js/main.f8c2bf10.js",
+    "main.css": "/NameCheap/static/css/main.06125de6.css",
+    "main.js": "/NameCheap/static/js/main.4b3d5571.js",
     "static/js/787.42daceff.chunk.js": "/NameCheap/static/js/787.42daceff.chunk.js",
     "static/media/zakynthos.jpg": "/NameCheap/static/media/zakynthos.839b910b9d95d6fa547f.jpg",
+    "static/media/movies.png": "/NameCheap/static/media/movies.5bbafce2cc4808ccae20.png",
+    "static/media/clothes.png": "/NameCheap/static/media/clothes.406bc1887285b0f820d4.png",
+    "static/media/toy.png": "/NameCheap/static/media/toy.1ab5f04a42c08b1d8611.png",
+    "static/media/parfum.png": "/NameCheap/static/media/parfum.e4e62f885b3845f36821.png",
+    "static/media/home.png": "/NameCheap/static/media/home.e3271bc754f689b1d7ed.png",
+    "static/media/credit.webp": "/NameCheap/static/media/credit.9767fb6f222ca58ec77a.webp",
+    "static/media/game.webp": "/NameCheap/static/media/game.228826e47636080c4ad1.webp",
     "index.html": "/NameCheap/index.html",
-    "main.faf3cf40.css.map": "/NameCheap/static/css/main.faf3cf40.css.map",
-    "main.f8c2bf10.js.map": "/NameCheap/static/js/main.f8c2bf10.js.map",
+    "main.06125de6.css.map": "/NameCheap/static/css/main.06125de6.css.map",
+    "main.4b3d5571.js.map": "/NameCheap/static/js/main.4b3d5571.js.map",
     "787.42daceff.chunk.js.map": "/NameCheap/static/js/787.42daceff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.faf3cf40.css",
-    "static/js/main.f8c2bf10.js"
+    "static/css/main.06125de6.css",
+    "static/js/main.4b3d5571.js"
   ]
 }
