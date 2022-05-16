@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "../../Styling/stores.css"
 import noriel from "../../assets/noriel.png"
 import asus from "../../assets/asus.jpg"
@@ -21,10 +23,6 @@ import tricouri from "../../assets/tricouri.jpg"
 import viva from "../../assets/viva.png"
 import bazar from "../../assets/bazar.png"
 
-
-
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;

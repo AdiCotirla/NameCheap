@@ -3,7 +3,7 @@
   padding: 0;
 }
 .dropdown-menu {
-   background: white;
+   background: #C70039 ;
    -webkit-box-shadow: 0px 2px 12px  rgba(0,0,0,0.6); 
    box-shadow: 0 0px 12px rgb(0 0 0 / 60%);
     width: 200px;
@@ -22,7 +22,7 @@
   }
   
   .dropdown-menu li:hover {
-    color: rgb(71, 0, 138);
+    color:  white;
   }
   
   .dropdown-menu.clicked {
@@ -39,7 +39,7 @@
   }
   .dropdown-link:hover
   {
-    color: rgb(71, 0, 138);
+    color: white;
   }
   
   @media screen and (max-width: 960px) {
