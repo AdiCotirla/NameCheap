@@ -20,7 +20,8 @@ export const Categories = [
     {
         title:"For home",
         path: "/home",
-        icon: home
+        icon: home,
+        cName: "link-category border"
     },
     {
         title:"Toys",
@@ -30,7 +31,8 @@ export const Categories = [
     {
         title:"Games",
         path: "/game",
-        icon:game
+        icon:game,
+        cName: "link-category border"
     },
     {
         title:"Books",
@@ -40,7 +42,8 @@ export const Categories = [
      {
         title:"Movies",
         path: "/movies",
-        icon:movie
+        icon:movie,
+        cName: "link-category border"
     },  
     {
         title:"Tech",
@@ -50,7 +53,8 @@ export const Categories = [
     {
         title:"Credit",
         path: "/credit",
-        icon:credit
+        icon:credit,
+        cName: "link-category border"
     },  
     {
         title:"Health care",
@@ -60,6 +64,7 @@ export const Categories = [
     {
         title:"Perfume",
         path: "/perfume",
-        icon:perfume
+        icon:perfume,
+        cName: "link-category border"
     },
 ]

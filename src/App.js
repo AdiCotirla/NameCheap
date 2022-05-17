@@ -6,6 +6,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Footer from './Components/Footer/Footer';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <Router>
     <div className="App">
       <Home/>
+      <Footer/>
     </div>
     </Router>
   );

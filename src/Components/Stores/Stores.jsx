@@ -57,13 +57,20 @@ export default class Stores extends Component {
       infinite: false,
       infinite: true,
       speed: 500,
-      slidesToShow: 5,
+      slidesToShow: 4,
       slidesToScroll: 1,
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />,
       speed: 200,
       centerPadding: "170px",
       responsive: [
+        {
+          breakpoint: 1000,
+          settings: {
+            slidesToShow: 3,
+            centerMode: false
+          }
+        },
         {
           breakpoint: 710,
           settings: {
@@ -75,8 +82,6 @@ export default class Stores extends Component {
     };
     return (
       <div className='container-stores'>
-        <div className='above'></div>
-        <div className='bellow'></div>
         <h2> OUR AFFILIATES</h2>
         <Slider {...settings}>
         <div className='store'>
@@ -177,7 +182,6 @@ export default class Stores extends Component {
               <img src={starshiners} alt="shop" className='imagine-stores' />
             </a>
           </div>
-
         </Slider>
       </div>
     );

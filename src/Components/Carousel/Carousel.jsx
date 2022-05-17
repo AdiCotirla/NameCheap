@@ -26,7 +26,7 @@ export default function Slider() {
             <div className='categories-div'>
                 {Categories.map((categorie, key) => {
                     return (
-                        <Link to={categorie.path} key={key} className="link-category">
+                        <Link to={categorie.path} key={key} className={categorie.cName? categorie.cName : "link-category"}>
                             <img src={categorie.icon} className="icon-category" alt='category' />
                             <span className='line-between'></span>
                             <p>{categorie.title}</p>

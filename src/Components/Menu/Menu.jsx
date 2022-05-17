@@ -39,9 +39,13 @@ function Navbar(props) {
 
   function ShowMenu() {
     if (document.body.scrollTop > 280 || document.documentElement.scrollTop > 280) {
-      document.getElementById("navbar-sticky").style.top = "0";
+      document.getElementById("navbar-sticky phone").style.top = "0";
+      document.getElementById("navbar-sticky pc").style.top = "0";
+
     } else {
-      document.getElementById("navbar-sticky").style.top = "-100%";
+      document.getElementById("navbar-sticky phone").style.top = "-100%";
+      document.getElementById("navbar-sticky pc").style.top = "-100%";
+
     }
   }
 
@@ -94,8 +98,51 @@ function Navbar(props) {
         </ul>
       </nav>
          
+      <nav className='navbar-sticky pc' id="navbar-sticky pc">
+        <div className='menu-icon'>
+            <p className='name-title'>Coupon Beast</p>
+          <i className={click ? 'fas fa-times' : 'fas fa-bars'} onClick={()=>{
+            handleClick()
+            BlurRoot()
+          }}/>
+        </div>
+        <div className='title-menu-div'>
+            <p className='title-menu'>Coupon Beast</p>
+        </div>
+        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+          <li className='nav-item'>
+            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              Home
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              All
+            </Link>
+          </li>
+          <li
+            className='nav-item'
+            onMouseEnter={onMouseEnter}
+            onMouseLeave={onMouseLeave}
+          >
+            <Link
+              to='/servicii'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Deals <i className='fas fa-caret-down' />
+            </Link>
+            {dropdown && <Dropdown />}
+          </li>
+          <li className='nav-item'>
+            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              Stores
+            </Link>
+          </li>
+        </ul>
+      </nav>
 
-      <nav className='navbar-sticky' id="navbar-sticky">
+      <nav className='navbar-sticky phone' id="navbar-sticky phone">
         <Link to='/' className='navbar-logo-sticky' onClick={closeMobileMenu}>
          <p className='name-title bolder-title'> Coupon Beast </p>
         </Link>
