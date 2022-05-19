@@ -7,13 +7,19 @@ import {
   Route
 } from "react-router-dom";
 import Footer from './Components/Footer/Footer';
+import Navbar from './Components/Menu/Menu';
+import AllShops from './Components/AllShops/AllShops';
 
 
 function App() {
   return (
     <Router>
     <div className="App">
-      <Home/>
+      <Navbar/>
+      <Routes>
+        <Route exact path='/' element={<AllShops/>}/>
+        
+      </Routes>
       <Footer/>
     </div>
     </Router>

@@ -72,7 +72,7 @@ function Navbar(props) {
             </Link>
           </li>
           <li className='nav-item'>
-            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/all' className='nav-links' onClick={closeMobileMenu}>
               All
             </Link>
           </li>
@@ -86,7 +86,7 @@ function Navbar(props) {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Deals <i className='fas fa-caret-down' />
+            Top products  <i className='fas fa-caret-down' />
             </Link>
             {dropdown && <Dropdown />}
           </li>
@@ -116,7 +116,7 @@ function Navbar(props) {
             </Link>
           </li>
           <li className='nav-item'>
-            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/all' className='nav-links' onClick={closeMobileMenu}>
               All
             </Link>
           </li>
@@ -130,7 +130,7 @@ function Navbar(props) {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Deals <i className='fas fa-caret-down' />
+              Top products <i className='fas fa-caret-down' />
             </Link>
             {dropdown && <Dropdown />}
           </li>
@@ -155,6 +155,11 @@ function Navbar(props) {
               Home
             </Link>
           </li>
+          <li className='nav-item'>
+            <Link to='/all' className='nav-links' onClick={closeMobileMenu}>
+                All
+            </Link>
+          </li>
           <li
             className='nav-item'
             onMouseEnter={onMouseEnter}
@@ -165,12 +170,7 @@ function Navbar(props) {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Coupons <i className='fas fa-caret-down' />
-            </Link>
-          </li>
-          <li className='nav-item'>
-            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                All
+              Top products <i className='fas fa-caret-down' />
             </Link>
           </li>
           <li className='nav-item'>

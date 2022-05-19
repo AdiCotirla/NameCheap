@@ -9,10 +9,16 @@
   -ms-overflow-style: none;  
   scrollbar-width: none;  
 }
+.App
+{
+  min-height: 100vh;
+
+}
 #root
 {
   /* background-color: rgba(128, 128, 128, 0.05); */
   font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
   
 }
 
