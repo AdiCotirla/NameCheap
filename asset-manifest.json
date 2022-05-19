@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NameCheap/static/css/main.71615b06.css",
-    "main.js": "/NameCheap/static/js/main.f29aca11.js",
+    "main.css": "/NameCheap/static/css/main.cbc4bf05.css",
+    "main.js": "/NameCheap/static/js/main.95d2f109.js",
     "static/js/787.42daceff.chunk.js": "/NameCheap/static/js/787.42daceff.chunk.js",
     "static/media/tricouri.jpg": "/NameCheap/static/media/tricouri.7d7583477dced94becd2.jpg",
     "static/media/med.png": "/NameCheap/static/media/med.3e19d66eba06452b8b7f.png",
@@ -31,12 +31,12 @@
     "static/media/slick.ttf": "/NameCheap/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/NameCheap/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/NameCheap/index.html",
-    "main.71615b06.css.map": "/NameCheap/static/css/main.71615b06.css.map",
-    "main.f29aca11.js.map": "/NameCheap/static/js/main.f29aca11.js.map",
+    "main.cbc4bf05.css.map": "/NameCheap/static/css/main.cbc4bf05.css.map",
+    "main.95d2f109.js.map": "/NameCheap/static/js/main.95d2f109.js.map",
     "787.42daceff.chunk.js.map": "/NameCheap/static/js/787.42daceff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.71615b06.css",
-    "static/js/main.f29aca11.js"
+    "static/css/main.cbc4bf05.css",
+    "static/js/main.95d2f109.js"
   ]
 }
