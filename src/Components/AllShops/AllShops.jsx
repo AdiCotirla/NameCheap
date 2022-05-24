@@ -47,10 +47,11 @@ export default class AllShops extends Component{
     render(){
     return (
         <div className='stores-container' >
+            <h1 className='stores-header'>All Shops</h1>
             <div className='filter-container'>
             {this.data.map((store, id) => {
                 return (
-                        <button key={id} onClick={() => {
+                        <button className='letter-button' key={id} onClick={() => {
                             this.FindStore(store.letter)
                         }}>{store.letter}</button>
                 )

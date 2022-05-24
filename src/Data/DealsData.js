@@ -7,11 +7,11 @@ export const DealsData = [
     }, 
     {
         path:"https://event.2performant.com/events/click?ad_type=banner&unique=21388a636&aff_code=66fef8958&campaign_unique=07b5f0fed",
-        src:"https://img.2performant.com/system/paperclip/banner_pictures/pics/188753/original/188753.jpg",
+        src:"https://img.2performant.com/system/paperclip/banner_pictures/pics/190060/original/190060.jpg",
         alt:"carturesti.ro%20",
         title:"carturesti.ro%20"
     }, 
-     {
+    {
         path:"https://event.2performant.com/events/click?ad_type=banner&unique=bb1ffc862&aff_code=66fef8958&campaign_unique=c91c384a7",
         src:"https://img.2performant.com/system/paperclip/banner_pictures/pics/186285/original/186285.png",
         alt: "noriel.ro%20",

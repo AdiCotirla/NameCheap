@@ -91,8 +91,8 @@ function Navbar(props) {
             {dropdown && <Dropdown />}
           </li>
           <li className='nav-item'>
-            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-              Stores
+            <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+              Contact
             </Link>
           </li>
         </ul>
@@ -135,8 +135,8 @@ function Navbar(props) {
             {dropdown && <Dropdown />}
           </li>
           <li className='nav-item'>
-            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-              Stores
+            <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+              Contact
             </Link>
           </li>
         </ul>
@@ -151,7 +151,7 @@ function Navbar(props) {
         </div>
         <ul className={click ? 'nav-menu-sticky active' : 'nav-menu-sticky'}>
           <li className='nav-item'>
-            <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
               Home
             </Link>
           </li>
@@ -174,8 +174,8 @@ function Navbar(props) {
             </Link>
           </li>
           <li className='nav-item'>
-            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-              Stores
+            <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+              Contact
             </Link>
           </li>
         </ul>
