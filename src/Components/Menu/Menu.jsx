@@ -52,7 +52,7 @@ function Navbar(props) {
   return (
     <div id='navbar'>
        <div className='div-under-meniu'>
-            <h1 className='div-under-meniu-h1'>All Deals & Coupons</h1>  
+            {/* <h1 className='div-under-meniu-h1'>All Deals & Coupons</h1>   */}
             </div>
       <nav className='navbar'>
         <div className='menu-icon'>
@@ -86,7 +86,7 @@ function Navbar(props) {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-            Top products  <i className='fas fa-caret-down' />
+            Top stores <i className='fas fa-caret-down' />
             </Link>
             {dropdown && <Dropdown />}
           </li>
@@ -130,7 +130,7 @@ function Navbar(props) {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Top products <i className='fas fa-caret-down' />
+              Top stores <i className='fas fa-caret-down' />
             </Link>
             {dropdown && <Dropdown />}
           </li>
@@ -170,7 +170,7 @@ function Navbar(props) {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Top products <i className='fas fa-caret-down' />
+              Top stores <i className='fas fa-caret-down' />
             </Link>
           </li>
           <li className='nav-item'>

@@ -1,16 +1,18 @@
-import React, {Component, useState} from 'react'
+import React, { Component } from 'react'
 import { StoresData } from '../../Data/StoresData'
 import StoreFound from './StoreFound'
 import "../../Styling/allstores.css"
 
 
-export default class AllShops extends Component{
-    constructor(props)
-    {
+export default class AllShops extends Component {
+    constructor(props) {
         super(props)
         this.state = {
-            filteredStore : [...StoresData],
-            stores : [...StoresData]
+            filter: this.props.filter,
+            show: this.props.show,
+            category: this.props.categorie,
+            filteredStore: [...StoresData],
+            stores: [...StoresData]
         }
         this.data = [
             { letter: "A" },
@@ -30,34 +32,31 @@ export default class AllShops extends Component{
             { letter: "V" },
             { letter: "All" }
         ]
-      
+
     }
-  
-   
     FindStore(letter) {
         if (letter === "All" || letter === null) {
-            this.setState({filteredStore : StoresData})
+            this.setState({ filteredStore: StoresData })
         }
         else {
             const startsWithN = this.state.stores.filter((country) => country.name.startsWith(letter));
-            this.setState({filteredStore : startsWithN})
+            this.setState({ filteredStore: startsWithN })
         }
     }
-
-    render(){
-    return (
-        <div className='stores-container' >
-            <h1 className='stores-header'>All Shops</h1>
-            <div className='filter-container'>
-            {this.data.map((store, id) => {
-                return (
-                        <button className='letter-button' key={id} onClick={() => {
-                            this.FindStore(store.letter)
-                        }}>{store.letter}</button>
-                )
-            })}</div>
-            <StoreFound array={this.state.filteredStore}></StoreFound>
-        </div>
-    )
-}
+    render() {
+            return (
+                <div className='stores-container' >
+                    <h1 className='stores-header'>All Shops</h1>
+                    <div className='filter-container'>
+                        {this.data.map((store, id) => {
+                            return (
+                                <button className='letter-button' key={id} onClick={() => {
+                                    this.FindStore(store.letter)
+                                }}>{store.letter}</button>
+                            )
+                        })}</div>
+                    <StoreFound array={this.state.filteredStore} categorie={this.state.category} show={this.state.show} filter={this.state.filter}></StoreFound>
+                </div>
+            )
+    }
 }

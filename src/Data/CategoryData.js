@@ -19,7 +19,7 @@ export const Categories = [
     },
     {
         title:"For home",
-        path: "/home",
+        path: "/interior",
         icon: home,
         cName: "link-category border"
     },
@@ -30,7 +30,7 @@ export const Categories = [
     },
     {
         title:"Games",
-        path: "/game",
+        path: "/games",
         icon:game,
         cName: "link-category border"
     },
